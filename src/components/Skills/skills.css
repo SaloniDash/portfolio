@@ -1,0 +1,115 @@
+ #skills{
+     min-height:80vh; 
+     /* margin: 0;
+    max-width: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem; 
+    width: 100%;
+    height: 50%; */
+    max-width: 100rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin: 1rem auto 5px;
+    font-family: sans-serif;
+    font-size: 3rem;
+    /* margin-top: 4px; */
+}
+.container1{
+   display: flex;
+   padding-left: 50rem;
+   width: 100%;
+   height: 100%;
+   justify-content: space-between;
+}
+.row{
+    width: 200rem;
+    margin: 3rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    overflow: hidden;
+}
+.card{
+    width:250px;
+    height: 200px;
+    margin: auto;
+    perspective: 1000px;
+    cursor: pointer;
+}
+.inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+.skillimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.front{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-position: center;
+    background-size: cover;
+}
+/* span{
+    display:inline-block;
+    width: 100px;
+    padding: 2px 0px;
+    margin-top:100px;
+    border-radius: 4px;
+    background:black;
+    color:white;
+    transition: transform 1s; 
+} */
+.back{
+  background-color: #cfc20c;
+  transform: rotateY(180deg);
+}
+.card:hover .inner{
+    transform: rotateY(-180deg);
+}
+card:hover span{
+    transform: translateX(140px);
+}
+.skillbtn{
+    padding: 0.5rem 2rem;
+    display: block;
+    margin: 3rem auto;
+    background: white;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 8px 16px  0 rgba(226, 214, 138, 0.5) ,0 17px 50px rgba(109, 95, 17, 0.5);
+    cursor: pointer;
+}
+.skillbtn:hover{
+    color: rgb(128, 104, 42);
+}
