@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.860ce86c.css",
+    "main.js": "/portfolio/static/js/main.638f8055.js",
+    "static/media/payment.png": "/portfolio/static/media/payment.ead2b36353feb28c148f.png",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.0015b0d5f009f06ae589.png",
+    "static/media/whatsapp.png": "/portfolio/static/media/whatsapp.7c2ae9900a2d9a1f8500.png",
+    "static/media/machine.jpg": "/portfolio/static/media/machine.c9e1eb3fd34b39b2f9ff.jpg",
+    "static/media/Saloni1.jpg": "/portfolio/static/media/Saloni1.5e8723a401015f4223d4.jpg",
+    "static/media/contact.png": "/portfolio/static/media/contact.afa6dcbf4b5be1c62d7d.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.f510cb7c0fe4745fc84b.png",
+    "static/media/web.jpg": "/portfolio/static/media/web.9c988c5a724322505231.jpg",
+    "static/media/salu.jpg": "/portfolio/static/media/salu.de9ad6d9f1fa6dda237c.jpg",
+    "static/media/prog.jpg": "/portfolio/static/media/prog.48884dd4c87e4aa82502.jpg",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.2baf1bef2548723a129e.png",
+    "static/media/hire.png": "/portfolio/static/media/hire.22c1354a12bc79022672.png",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.45b02394a7d26bb8fe59.jpg",
+    "static/media/medical.jpg": "/portfolio/static/media/medical.2c2adf6f7f8e0d728b0a.jpg",
+    "static/media/front.jpg": "/portfolio/static/media/front.018f49a6bcfa07057b8c.jpg",
+    "static/media/Twitt.jpg": "/portfolio/static/media/Twitt.6627639ff0b2192b1d56.jpg",
+    "static/media/linkedin.webp": "/portfolio/static/media/linkedin.4c11b4693dd4eebca5be.webp",
+    "index.html": "/portfolio/index.html",
+    "main.860ce86c.css.map": "/portfolio/static/css/main.860ce86c.css.map",
+    "main.638f8055.js.map": "/portfolio/static/js/main.638f8055.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.860ce86c.css",
+    "static/js/main.638f8055.js"
+  ]
+}
