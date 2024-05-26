@@ -34,7 +34,7 @@ const Skills = () => {
                 </div>
                 <div className="back">
                   <h2>CPP</h2>
-                  <h5>Proficient in C++: <br/>algorithms, data structures,<br/>efficient code implementation.</h5>
+                  <h5>Proficient <br/>in C++, specializing in <br/>algorithms, data structures, <br/>and efficient code implemen-<br/>tation for optimized software<br/> solutions.</h5>
                 </div>
               </div>
             </div>
@@ -48,8 +48,8 @@ const Skills = () => {
                   <img src={front} alt="" className="skillimg" />
                 </div>
                 <div className="back">
-                  <h2>WEB DEV.</h2>
-                  <h5>Familiar <br/> HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and responsive design principles.</h5>
+                  <h2>WEB DEV</h2>
+                  <h5>Familiar <br/> HTML5, CSS3, and JavaScript,<br/> ensuring cross-browser<br/> compatibility and responsive <br/>design principles.</h5>
                 </div>
               </div>
             </div>
@@ -62,7 +62,10 @@ const Skills = () => {
                 <div className="front">
                   <img src={web} alt="" className="skillimg" />
                 </div>
-                <div className="back">hii saloni </div>
+                <div className="back">
+                  <h2>Graphic Design</h2>
+                  <h5>Proficient<br/> in Figma and Canva <br/>with UI/UX design exper-<br/>ience, creating engaging <br/>and user-friendly interfaces <br/>for web and mobile.</h5>
+                </div>
               </div>
             </div>
           </div>
